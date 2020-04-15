@@ -1,0 +1,25 @@
+# [START swagger]
+swagger: "2.0"
+info:
+  description: "Test google endpoints."
+  title: "Endpoints Example"
+  version: "1.0.0"
+host: "test-api.endpoints.testing-ucic.cloud.goog"
+# [END swagger]
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+schemes:
+  # Uncomment the next line if you configure SSL for this API.
+  # - "https"
+  - "http"
+paths:
+  "/":
+    get:
+      description: "Returns Hello World."
+      produces:
+        - "application/json"
+      responses:
+        200:
+          description: OK
