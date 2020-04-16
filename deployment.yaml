@@ -51,6 +51,6 @@ spec:
           ports:
             - containerPort: 8081
         - name: springboot-gcp
-          image: gcr.io/testing-ucic/springboot-gcp:v1
+          image: gcr.io/testing-ucic/springboot-gcp:latest
           ports:
             - containerPort: 8080
