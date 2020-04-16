@@ -12,7 +12,7 @@ class TestController {
 
     @GetMapping
     fun index(): ResponseEntity<Any> {
-        return ResponseEntity.ok(mapOf("data" to "Hello World"));
+        return ResponseEntity.ok(mapOf("data" to "Commentaries"));
     }
 
 }
