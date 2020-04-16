@@ -15,11 +15,11 @@ schemes:
   # - "https"
   - "http"
 paths:
-  "/":
-    get:
-      description: "Returns Hello World."
-      produces:
-        - "application/json"
-      responses:
-        200:
-          description: OK
+#  "/commentaries":
+#    get:
+#      description: "Returns Hello World."
+#      produces:
+#        - "application/json"
+#      responses:
+#        200:
+#          description: OK
