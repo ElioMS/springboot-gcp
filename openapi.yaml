@@ -18,6 +18,7 @@ paths:
   "/commentaries":
     get:
       description: "Returns Hello World."
+      operationId: "ListCommentaries"
       produces:
         - "application/json"
       responses:
